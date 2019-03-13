@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_feed"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="Home Feed" />
+        <item
+            android:id="@+id/nav_weather_check"
+            android:icon="@drawable/ic_baseline_weather"
+            android:title="Weather Check" />
+        <item
+            android:id="@+id/nav_calorie_distance"
+            android:icon="@drawable/ic_baseline_caldist"
+            android:title="Calorie and Distance" />
+        <item
+            android:id="@+id/nav_bike_repair"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Bike Repair Shop Nearby" />
+        <item
+            android:id="@+id/nav_call_emergency"
+            android:icon="@drawable/ic_baseline_call"
+            android:title="Call Emergency Contact" />
+        <item
+            android:id="@+id/nav_bike_theft"
+            android:icon="@drawable/ic_baseline_key"
+            android:title="Bike Theft Security Setting" />
+        <item
+            android:id="@+id/nav_theft_area"
+            android:icon="@drawable/ic_baseline_hand"
+            android:title="Theft-Risk Area" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+    </group>
+
+</menu>
