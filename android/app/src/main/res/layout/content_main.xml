@@ -9,23 +9,25 @@
     tools:showIn="@layout/app_bar_main">
 
     <android.support.design.widget.TabLayout
-        android:layout_width="0dp"
-        android:layout_height="103dp"
+        android:id="@+id/tab_layout"
+        android:layout_height="64dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tabBackground="@android:color/holo_blue_dark">
+        app:tabBackground="@android:color/holo_blue_dark"
+        android:layout_width="0dp" />
 
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="You" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tab_layout" />
 
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Map" />
-
-    </android.support.design.widget.TabLayout>
 </android.support.constraint.ConstraintLayout>

@@ -11,4 +11,33 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Times">
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>This Week</item>
+        <item>Previous Week</item>
+        <item>This Month</item>
+        <item>Last Month</item>
+    </string-array>
+
+    <string-array name="Distance">
+        <item>1 KM</item>
+        <item>2 KM</item>
+        <item>3.3 KM</item>
+        <item>10 KM</item>
+        <item>15 KM</item>
+        <item>18.7 KM</item>
+    </string-array>
+
+    <string-array name="Emergencies">
+        <item>P ; James Richardson ; San Fransisco, CA</item>
+        <item>S1 ; Madeline Kennedy ; Fremont, CA</item>
+        <item>S2 ; Anna Coleman ; San Fransisco, CA</item>
+    </string-array>
+
+    <string name="emergency_click">CLICK TO CALL EMERGENCY CONTACT</string>
+    <string name="tab_stats_title">Your Stats</string>
+    <string name="tab_emergency_title">Emergency Contact</string>
+
 </resources>
